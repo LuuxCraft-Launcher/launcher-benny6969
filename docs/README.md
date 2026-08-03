@@ -1,6 +1,6 @@
 <p align="center"><img src="../src/assets/images/icon/icon.png" alt="icon-launcher"></p>
 
-<h1 align="center">${productNamePackage}</h1>
+<h1 align="center">voxel studios</h1>
 
 [<p align="center">]()
 ![GitHub all releases](https://img.shields.io/github/downloads/luuxis/Selvania-Launcher/total?style=for-the-badge)
@@ -66,8 +66,8 @@ Si vous téléchargez à partir des Releases, sélectionnez le programme d'insta
 
  Plateforme | Fichier |
 | -------- | ---- |
-| Windows x64 | `${name}-win-x64.exe ` |
-| macOS | `${name}-mac-universal.dmg` |
-| Linux x64 | `${name}-linux-x86_64.AppImage` |
+| Windows x64 | `Voxel-Studios-win-x64.exe ` |
+| macOS | `Voxel-Studios-mac-universal.dmg` |
+| Linux x64 | `Voxel-Studios-linux-x86_64.AppImage` |
 
 ---
