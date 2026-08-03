@@ -1,0 +1,43 @@
+{
+    "name": "${name}",
+    "productName": "${productNamePackage}",
+    "version": "1.0.15",
+    "description": "${description}",
+    "main": "src/app.js",
+    "author": {
+        "name": "luuxis, Inc.",
+        "email": "contact@luuxis.fr",
+        "url": "https://github.com/luuxis"
+    },
+    "url": "${api_url}",
+    "scripts": {
+        "start": "cross-env-shell NODE_ENV=dev API_URL=http://luuxcraft.fr/api/user/bb8f5247-1d38-41bb-ab6d-3200471a06b2 electron .",
+        "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
+        "build": "node build.js --obf=true --build=platform",
+        "icon": "node build.js --icon"
+    },
+    "license": "CCANC",
+    "nodemonConfig": {
+        "ext": "js,html,css",
+        "ignore": "**/test"
+    },
+    "dependencies": {
+        "electron-store": "^8.2.0",
+        "electron-updater": "^6.8.3",
+        "minecraft-java-core": "^4.2.8",
+        "xml-js": "^1.6.11"
+    },
+    "devDependencies": {
+        "cross-env": "^10.1.0",
+        "electron": "^41.2.1",
+        "electron-builder": "^26.8.1",
+        "javascript-obfuscator": "^5.4.1",
+        "jimp": "^1.6.1",
+        "nodemon": "^3.1.14",
+        "png2icons": "^2.0.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/${github_url}.git"
+    }
+}
